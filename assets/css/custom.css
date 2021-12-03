@@ -1,0 +1,756 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #434343;
+}
+
+a:hover {
+    color: #8ccf4d;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    color: #335c32;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-success {
+    background-color: #8ccf4d;
+    border-color: #8ccf4d;
+    width: 135px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
+    font-size: 16;
+}
+
+.btn-success:hover {
+    background-color: #6fa83a;
+    border-color: #6fa83a;
+    width: 135px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
+    font-size: 16;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #000;
+    width: 100px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
+    font-size: 16;
+}
+
+.btn-outline-light:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #6fa83a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
+    font-size: 16;
+}
+
+.d-inline {
+    color: #292c2b;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+/*--------------------------------------------------------------
+# Modal
+--------------------------------------------------------------*/
+
+
+/* 
+#departemen #exampleModal .modal-body h4 {
+    font-weight: 600px;
+    font-size: 24px;
+    color: #000;
+} */
+
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+.navbar {
+    border-bottom: 1px solid #e9ecef;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.navbar-nav li.nav-item a.nav-link {
+    color: #434343;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    text-decoration: none;
+    color: #8ccf4d;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #8ccf4d;
+    border-color: #8ccf4d;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6fa83a;
+    border-color: #6fa83a;
+}
+
+.btn-secondary {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-secondary:hover {
+    color: #8ccf4d;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Login&Regis
+--------------------------------------------------------------*/
+
+#card {
+    border-radius: 10px;
+}
+
+form input+i {
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    color: rgb(192, 191, 191);
+}
+
+#Login_V .form-control {
+    border-radius: 10px;
+    border: 1px solid rgba(51, 92, 50, 1);
+}
+
+#login {
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.regis {
+    display: inline;
+    text-decoration: none;
+    color: #8ccf4d;
+}
+
+.regis:hover {
+    color: #6fa83a;
+}
+
+#lupa {
+    width: 100%;
+}
+
+.lupa {
+    display: block;
+    width: auto;
+    padding-top: 5px;
+    text-decoration: none;
+    text-align: right;
+    color: #8ccf4d;
+    padding-bottom: 30px;
+}
+
+.lupa:hover {
+    color: #6fa83a;
+}
+
+#Login_V .d-grid .btn {
+    border-radius: 10px;
+    background: linear-gradient(91.44deg, #a4ec60 14.21%, #61b115 88.29%);
+    color: #fff;
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+#Login_V .d-grid .btn:hover {
+    border-radius: 10px;
+    background: linear-gradient(91.44deg, #81d334 14.21%, #4d9906 88.29%);
+    color: #fff;
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+#regis_V .d-grid .btn {
+    border-radius: 10px;
+}
+
+
+/*--------------------------------------------------------------
+# Home
+--------------------------------------------------------------*/
+
+.slider .carousel .carousel-inner {
+    height: 600px;
+}
+
+#landTentang {
+    background: #f6f8fd;
+}
+
+#landTentang h2 {
+    padding-top: 30px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+#landTentang h5 {
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(49, 49, 49, 1);
+}
+
+#landTentang p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #292c2b;
+}
+
+#landTentang .btn {
+    color: #335c32;
+    background: #fff;
+    border-color: #335c32;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#landTentang .card {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #f6f8fd;
+}
+
+#landDepartemen h2 {
+    padding-top: 30px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+#landDepartemen .card-group {
+    width: 100%;
+}
+
+#landDepartemen .card-group .card {
+    width: 393px;
+    height: 528px;
+}
+
+#landDepartemen .card-group .card h2 {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+#landDepartemen .btn {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#landDepartemen .d-grid {
+    margin-top: 80px;
+}
+
+#landDepartemen .d-grid .btn {
+    color: #335c32;
+    background: #fff;
+    border-color: #335c32;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#landKaryawan {
+    background: #f6f8fd;
+}
+
+#landKaryawan h2 {
+    padding-top: 30px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+#landKaryawan p {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+
+#landKaryawan .card-group .card {
+    width: 288.46px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#landKaryawan .d-grid {
+    margin-top: 80px;
+}
+
+#landKaryawan .d-grid .btn {
+    color: #335c32;
+    background: #fff;
+    border-color: #335c32;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#landLowongan h2 {
+    padding-top: 30px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+#landLowongan p {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+
+#landLowongan .selengkapnya.d-grid {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#landLowongan .selengkapnya.d-grid .btn {
+    color: #335c32;
+    background: #fff;
+    border-color: #335c32;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#landArtikel {
+    background: #f6f8fd;
+}
+
+#landArtikel h2 {
+    padding-top: 30px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+#landArtikel p {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+
+#landArtikel .card {
+    height: 600px;
+}
+
+#landArtikel .d-grid {
+    margin-top: 50px;
+}
+
+#landArtikel .d-grid .btn {
+    color: #335c32;
+    background: #fff;
+    border-color: #335c32;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#landKontak h2 {
+    padding-top: 30px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+@media (min-width: 320px) {
+    .slider .carousel .carousel-inner {
+        height: 190px;
+    }
+    #landArtikel .card-text {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 576px) {
+    .slider .carousel .carousel-inner {
+        height: 205px;
+    }
+}
+
+@media (min-width: 768px) {
+    .slider .carousel .carousel-inner {
+        height: 450px;
+    }
+    #landArtikel .card-text {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slider .carousel .carousel-inner {
+        height: 580px;
+    }
+    #landArtikel .card-text {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #landArtikel .card-text {
+        padding-top: 30px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Departemen
+--------------------------------------------------------------*/
+
+#strukturDept {
+    padding-top: 140px;
+}
+
+#daftarDept {
+    padding-top: 40px;
+}
+
+#departemen .card {
+    width: 393px;
+    height: 528px;
+}
+
+#departemen .card-img-top {
+    width: 100%;
+    height: 200;
+}
+
+@media (min-width: 320px) {
+    #departemen .card {
+        width: 255px;
+        height: 528px;
+    }
+}
+
+@media (min-width: 400px) {
+    #departemen .card {
+        width: 320px;
+        height: 528px;
+    }
+}
+
+@media (min-width: 768px) {
+    #departemen .card {
+        width: 230px;
+        height: 528px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #departemen .card {
+        width: 373px;
+        height: 528px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #departemen .card {
+        width: 423px;
+        height: 528px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# karyawan
+--------------------------------------------------------------*/
+
+#karyawan .card {
+    width: 288.46px;
+    height: 459px;
+    border-radius: 10px;
+}
+
+#karyawan .card-img-top {
+    width: 288.46px;
+    height: 277px;
+}
+
+
+/*--------------------------------------------------------------
+# kontak
+--------------------------------------------------------------*/
+
+#hubungi .HubungiKami .kirim {
+    height: 40px;
+    width: 135px;
+}
+
+#hubungi .form-control {
+    border-color: #c4c4c4;
+    border-radius: 5px !important;
+}
+
+#hubungi.btn-success {
+    background-color: #8ccf4d;
+    border-color: #8ccf4d;
+    width: 135px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
+    font-size: 16;
+}
+
+#hubungi.btn-success:hover {
+    background-color: #6fa83a;
+    border-color: #6fa83a;
+    width: 135px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
+    font-size: 16;
+}
+
+#hubungi.btn-outline-light {
+    border-color: #fff;
+    color: #000;
+    width: 100px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
+    font-size: 16;
+}
+
+#hubungi.btn-outline-light:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #6fa83a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 !important;
+    font-size: 16;
+}
+
+#hubungi .d-inline {
+    color: #292c2b;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+/*--------------------------------------------------------------
+# Lowongan
+--------------------------------------------------------------*/
+
+
+/* #lowongan .container {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 320px) {
+    #lowongan .container {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+} */
+
+
+/*--------------------------------------------------------------
+# Lamaran
+--------------------------------------------------------------*/
+
+#lamaran .card {
+    background: #f6f8fd;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+    background: #2145a0;
+    padding: 0 0 30px 0;
+    color: #000;
+    height: 196px;
+    font-size: 14px;
+}
+
+#footer {
+    background: #f6f8fd;
+    height: 196px;
+    margin-top: auto;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+}
+
+#footer .copyright {
+    text-align: center;
+    font-family: "Poppin", sans-serif;
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+#digi {
+    color: #8ccf4d;
+}
+
+#footer .credits {
+    padding-top: 10px;
+    color: #fff;
+}
+
+#footer .credits a {
+    color: #f6f8fd;
+}
+
+
+/*------------------------------
+             Tentang
+--------------------------------*/
+
+@media (min-width: 320px) {
+    #tentang .row {
+        margin-top: 10px;
+        margin-bottom: -70px;
+    }
+    .tentang {
+        margin-top: -50px;
+    }
+    .visiMisi {
+        margin-bottom: 70px;
+    }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1200px) {
+    .text-break-1 {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .text-break-2 {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .visiMisi {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .text-break-1 {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+    .text-break-2 {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+    .visiMisi {
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+}
+
+.page-1 {
+    width: 900px;
+    align-content: center;
+}
+
+h2.pt {
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 36;
+    font-weight: 600;
+    color: #335c32;
+}
+
+p.text-break-1 {
+    margin-top: 30px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 16;
+}
+
+p.text-break-2 {
+    margin-top: 20px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 16;
+}
+
+.frame {
+    width: 604px;
+    height: 514px;
+}
+
+.card {
+    -webkit-box-shadow: 0 0 35px 10px #ededed;
+    box-shadow: 0 0 35px 10px #ededed;
+    /* width: 393px; */
+    /* height: 338px; */
+}
+
+.card .card-body {
+    text-align: center;
+}
+
+.judul {
+    width: 100%;
+}
+
+
+/* .tentang_1 {
+    padding-left: 180px;
+    padding-right: 180px;
+} */
+
+.tentang {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
