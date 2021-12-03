@@ -151,7 +151,6 @@
                     type: "POST",
                     url: "<?php echo base_url('ajax/hapusdata'); ?>",
                     data: "nim=" + nim,
-                    dataType: "dataType",
                     success: function() {
                         getData();
                     }
