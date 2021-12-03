@@ -78,4 +78,12 @@ class Ajax extends CI_Controller
         }
         echo json_encode($result);
     }
+
+    // Fungsi Hapus Data
+    function hapusdata()
+    {
+        $nim = $this->input->post('nim');
+        $where = array('nim' => $nim);
+        $this->ajax_model->hapusdata($where, 'siswa');
+    }
 }

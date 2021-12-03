@@ -63,8 +63,9 @@
                             '<td>' + data[i].nim + '</td>' +
                             '<td>' + data[i].nama + '</td>' +
                             '<td>' + data[i].kota + '</td>' +
-                            '<td><a href="#EditForm" data-toggle="modal" class="btn btn-warning" onclick="edit(' + data[i].nim + ')">Edit</a></td>'
-                        '</tr>';
+                            '<td><a href="#EditForm" data-toggle="modal" class="btn btn-warning" onclick="edit(' + data[i].nim + ')">Edit</a>' + ' <a href="#HapusForm" data-toggle="modal" class = "btn btn-danger" onclick = "hapusdata(' + data[i].nim + ')"> Delete </a></td> ' +
+
+                            '</tr>';
                     }
                     $('#data').html(baris);
                 }
@@ -93,7 +94,7 @@
 
                         getData();
 
-                        $("[name='nama'],[name]='kota'").val('');
+                        $("[name='nama'],[name='kota']").val('');
                     }
                 }
             });
@@ -141,6 +142,23 @@
     </script>
     <!-- end -->
 
+    <!-- js hapus -->
+    <script>
+        function hapusdata(nim) {
+            var tanya = confirm("apakah yakin anda menghapus data?");
+            if (tanya) {
+                $.ajax({
+                    type: "POST",
+                    url: "<?php echo base_url('ajax/hapusdata'); ?>",
+                    data: "nim=" + nim,
+                    dataType: "dataType",
+                    success: function() {
+                        getData();
+                    }
+                });
+            }
+        }
+    </script>
     <!-- Modal add-->
     <div class="modal fade" id="AddForm" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">

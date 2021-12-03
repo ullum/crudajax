@@ -26,4 +26,11 @@ class Ajax_model extends CI_Model
         $this->db->where($where);
         $this->db->update($table, $data);
     }
+
+    // Fungsi Hapus Data
+    function hapusdata($where, $table)
+    {
+        $this->db->where($where);
+        $this->db->delete($table);
+    }
 }
