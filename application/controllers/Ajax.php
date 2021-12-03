@@ -62,17 +62,13 @@ class Ajax extends CI_Controller
         $nim = $this->input->post('nim');
         $nama = $this->input->post('nama');
         $kota = $this->input->post('kota');
-
-
         if ($nama == '') {
             $result['pesan'] = "Nama harus diisi";
         } elseif ($kota == '') {
             $result['pesan'] = "Kota harus diisi";
         } else {
             $result['pesan'] = "";
-
             $where = array('nim' => $nim);
-
             $data = array(
                 'nim' => $nim,
                 'nama' => $nama,

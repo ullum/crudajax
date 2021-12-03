@@ -19,4 +19,11 @@ class Ajax_model extends CI_Model
     {
         return $this->db->get_where($table, $where);
     }
+
+    // Fungsi Edit Data
+    function editdata($where, $data, $table)
+    {
+        $this->db->where($where);
+        $this->db->update($table, $data);
+    }
 }

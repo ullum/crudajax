@@ -108,7 +108,7 @@
             $.ajax({
                 type: "POST",
                 url: '<?php echo base_url("ajax/ambilNim"); ?>',
-                data: "nim" + x,
+                data: "nim=" + x,
                 dataType: "JSON",
                 success: function(hasil) {
                     $('#EditForm [name="nim"]').val(hasil[0].nim);
@@ -124,7 +124,6 @@
             var nim = $("#EditForm [name='nim']").val();
             var nama = $("#EditForm [name='nama']").val();
             var kota = $("#EditForm [name='kota']").val();
-
             $.ajax({
                 type: 'POST',
                 data: 'nim=' + nim + '&nama=' + nama + '&kota=' + kota,
